@@ -6,15 +6,14 @@
 // Lamp pin
 const int lamp_pin = 5;
 
-// WiFi parameters
-#define WLAN_SSID       "Laura's iPhone"
-#define WLAN_PASS       "huffed4670"
+#define WLAN_SSID       "your network"
+#define WLAN_PASS       "your password"
 
 // Adafruit IO
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "lauritapear0611"
-#define AIO_KEY         "5d447c950137dfc5f8ca7d9bc9de1b080d6a4e58"
+#define AIO_USERNAME    "your username "
+#define AIO_KEY         "your adafruit key"
 
 // Functions
 void connect();
